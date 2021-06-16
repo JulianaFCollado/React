@@ -10,7 +10,7 @@ function Title (props){
            <h1>{props.text}</h1>
            <p>Un parrafo estatico </p>
            <p>{text}</p>
-           !---//esto es dinamico
+           
 
        </div>
     )

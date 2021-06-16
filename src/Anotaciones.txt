@@ -1,0 +1,28 @@
+Componentes base podemos extender lo que trae React, ya esta definido
+pero uno devuelve un fragmento de vista.
+
+CREAR Componentes
+COMO CLASES 
+*Es un componente stateful
+COMO FUNCIONES
+*Es un componente stateless
+state: la informacion de un componente, en un momento dado
+
+Persona
+-nombre: 'Juli'
+-edad: '28'
+*Toda la informacion que esta dentro de este objeto, es el STATE 
+(si cambia algo, cambia el estado de la persona, ej la edad)
+
+React hace paginas reactivas, que responden a los cambios inmediatamente
+por eso tiene EVENTOS (del lado del cliente: clicks, teclado, segundos planos)- a través de JS - con permisos.
+disparan otra/s acciones
+
+REACTIVIDAD --> EVENTOS --> ACCION/ES: renderiza para mostrar cambios
+                Producen
+                cambios de
+                 estado    
+Ej: Enviar formulario. Clickeo enviar, me aparece un mensaje de "enviando". Cambia los componentes de la paginas
+Se envia un dato, llega una respuesta (Tu mensaje ha sido enviado)
+
+STATE --> HACE QUE UN COMPONENTE SEA REACTIVO

@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
+import Counter from './Counter';
+import CounterClass from './CounterClass';
 //importa esta funcion de este archivo
 
 function App() {
   return (
     <div className="App">
       <Title text="Esto es un parametro"/>
+      <Counter/>
+      <CounterClass/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
